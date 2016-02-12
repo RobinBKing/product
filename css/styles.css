@@ -18,10 +18,10 @@
   font-family: 'kaushanScript';
   src: url("KaushanScript-Regular.otf");
 }
-
+/*
 html body{
   width: 1280px;
-}
+}*/
 
 .product {
   background-image: url("../img/On-the-beach-sunrise-Camera-Tripod-View-1280.jpg");
@@ -39,12 +39,15 @@ html body{
 }
 
 #title {
+  width: 500px;
   left: 0px;
-  top: 50px;
+  top: 200px;
   text-align: center;
+  position: absolute;
 }
 
 #title h1 {
+  width: 500px;
   font-family: 'kaushanScript';
   font-size: 50px;
   text-shadow: 0 4px 4px lightgray;
@@ -58,23 +61,32 @@ html body{
   margin: 0 auto 0 auto;
 }
 
-#summary {
-  left: 375px;
-  top: 500px;
-  text-align: center;
+#cameraTable {
+  left: 950px;
+  top: 175px;
 }
 
-#summary h3 {
-  width: 400px;
+#cameraTable h3 {
+  width: 300px;
   height: auto;;
   font-family: 'chunkfive';
   text-shadow: 0 4px 4px lightgray;
-  margin: 0 auto 0 auto;
 }
 
-#summary p {
-  width: 400px;
+#cameraTable table {
+  /*background-color: #e6ffff;*/
+  width: 300px;
   font-family: 'Quicksand';
+  font-size: 20px;
   text-shadow: 0 4px 4px lightgray;
-  margin: 0 auto 0 auto;
+  text-align: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+#cameraTable td {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }

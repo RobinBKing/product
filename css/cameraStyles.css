@@ -1,0 +1,94 @@
+, *::before, *::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url("Quicksand-BoldItalic.otf");
+}
+
+.camera {
+  position: relative;
+   margin-left: auto;;
+   margin-right: auto;
+   /*width: 700px;
+   height: 600px;
+   border: 1px solid #006600;*/
+}
+
+.d500{
+  position: absolute;
+  display: table-cell;
+  align-content: center;
+  margin-left: 25px;
+  margin-right: auto;
+}
+
+.thumbnail {
+  float: left;
+  width: 90px;;
+  height:90px;
+  margin-right: 15px;
+}
+
+ .thumbnail img {
+   width: 90px;;
+   height:90px;
+}
+
+.mainPicture {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mainPicture img {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+.clearboth {
+  clear: both;;
+}
+
+.mainPicture #front {
+  display: none;
+}
+
+
+#summary {
+  left: 375px;
+  top: 800px;
+  position: absolute;
+}
+
+#summary h1, h3 {
+  width: 400px;
+  height: auto;;
+  font-family: 'chunkfive';
+  text-shadow: 0 4px 4px lightgray;
+  margin: 0 auto 0 auto;
+}
+
+#summary p {
+  width: 400px;
+  font-family: 'Quicksand';
+  text-shadow: 0 4px 4px lightgray;
+  margin: 0 auto 0 auto;
+}
+
+#summary img {
+  width: 500px;
+  height: auto;
+}
+
+#summaryText {
+  float: right;
+}
+
+#summaryImage {
+  float: left;
+}
