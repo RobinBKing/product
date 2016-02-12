@@ -3,3 +3,78 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: 'Quicksand';
+  src: url("Quicksand-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: 'chunkfive';
+  src: url("Chunkfive.otf");
+}
+
+@font-face {
+  font-family: 'kaushanScript';
+  src: url("KaushanScript-Regular.otf");
+}
+
+html body{
+  width: 1280px;
+}
+
+.product {
+  background-image: url("../img/On-the-beach-sunrise-Camera-Tripod-View-1280.jpg");
+  width: 1280px;
+  height: 960px;
+  position: relative;
+}
+
+.product div {
+  position: relative;
+}
+
+.product img {
+  position: relative;
+}
+
+#title {
+  left: 0px;
+  top: 50px;
+  text-align: center;
+}
+
+#title h1 {
+  font-family: 'kaushanScript';
+  font-size: 50px;
+  text-shadow: 0 4px 4px lightgray;
+  margin: 0 auto 0 auto;
+}
+
+#title img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+
+#summary {
+  left: 375px;
+  top: 500px;
+  text-align: center;
+}
+
+#summary h3 {
+  width: 400px;
+  height: auto;;
+  font-family: 'chunkfive';
+  text-shadow: 0 4px 4px lightgray;
+  margin: 0 auto 0 auto;
+}
+
+#summary p {
+  width: 400px;
+  font-family: 'Quicksand';
+  text-shadow: 0 4px 4px lightgray;
+  margin: 0 auto 0 auto;
+}
