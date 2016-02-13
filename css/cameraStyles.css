@@ -40,26 +40,35 @@
   margin-right: auto;
 }
 
-.mainPicture img{
+.mainPicture img  {
   width: 500px;
   height: auto;
-  display: none;
+  display: block;
   margin: 0 auto 0 auto;
+}
+
+.mainPicture {
+  display: none;
 }
 
 .clearboth {
   clear: both;;
 }
 
-
-.frontThumbnail:hover .front img {
-  border: 4px dotted gold;
+.thumbnail img:hover {
+  width: 500px;
+  height: auto;
+  position: absolute;
+  top: 60px;
+  left: 150px;
   display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #summary {
   left: 0;
-  top: 800px;
+  top: 500px;
   position: absolute;
 }
 
