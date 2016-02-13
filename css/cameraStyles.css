@@ -15,8 +15,30 @@
   margin-right: auto;
 }
 
+.header {
+  width: 850px;
+  height: 100px;
+  margin-left: auto;;
+  margin-right: auto;
+}
+
+.iAm {
+  margin-left: auto;;
+  margin-right: auto;
+}
+
+.D500Logo{
+  width: 280px;
+  height: 90px;
+  margin: 0 0 0 0;
+  position: absolute;
+  top: 250px;
+  left: 600px;
+}
+
 .d500{
   position: absolute;
+  padding-top: 0px;
   display: table-cell;
   align-content: center;
   margin-left: 25px;
@@ -35,22 +57,6 @@
    height:90px;
 }
 
-.mainPicture {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.mainPicture img  {
-  width: 500px;
-  height: auto;
-  display: block;
-  margin: 0 auto 0 auto;
-}
-
-.mainPicture {
-  display: none;
-}
-
 .clearboth {
   clear: both;;
 }
@@ -59,8 +65,8 @@
   width: 500px;
   height: auto;
   position: absolute;
-  top: 60px;
-  left: 150px;
+  top: 50px;
+  left: 50px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -68,7 +74,7 @@
 
 #summary {
   left: 0;
-  top: 500px;
+  top: 600px;
   position: absolute;
 }
 
