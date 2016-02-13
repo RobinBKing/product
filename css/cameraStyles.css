@@ -16,8 +16,9 @@
 }
 
 .header {
-  width: 850px;
-  height: 100px;
+  /*width: 850px;
+  height: 100px;*/
+  position: relative;
   margin-left: auto;;
   margin-right: auto;
 }
@@ -28,20 +29,26 @@
 }
 
 .D500Logo{
-  width: 280px;
+  width: 325px;
   height: 90px;
-  margin: 0 0 0 0;
+  margin-left: auto;;
+  margin-right: auto;
   position: absolute;
-  top: 250px;
+  top: 200px;
   left: 600px;
 }
 
-.d500{
+.D500Logo th, td {
+  font-family: 'Quicksand';
+  text-shadow: 0 4px 4px lightgray;
+}
+
+.thumbnails {
   position: absolute;
   padding-top: 0px;
   display: table-cell;
   align-content: center;
-  margin-left: 25px;
+  margin-left: 20px;
   margin-right: auto;
 }
 
@@ -57,42 +64,40 @@
    height:90px;
 }
 
-.clearboth {
-  clear: both;;
-}
-
-.thumbnail img:hover {
+.thumbnail:hover img{
+  cursor: zoom-in;
   width: 500px;
   height: auto;
   position: absolute;
-  top: 50px;
+  top: 70px;
   left: 50px;
-  display: block;
   margin-left: auto;
   margin-right: auto;
+    display: block;
 }
 
 #summary {
-  left: 0;
   top: 600px;
-  position: absolute;
+  left: 0px;
+  padding: 0 0 0 0px;
+  position: absolute;;
 }
 
-#summary h1, h3 {
+#summary h1 {
   width: 400px;
   height: auto;;
   font-family: 'chunkfive';
   text-shadow: 0 4px 4px lightgray;
   margin: 0 auto 0 auto;
-  padding-left: 15px;
 }
 
 #summary p {
-  width: 400px;
   font-family: 'Quicksand';
   text-shadow: 0 4px 4px lightgray;
   margin: 0 auto 0 auto;
   padding-left: 15px;
+  width: 400px;
+  height: auto;
 }
 
 #summary img {
@@ -101,9 +106,9 @@
 }
 
 #summaryText {
-  float: right;
+  float: left;;
 }
 
 #summaryImage {
-  float: left;
+  float: right;
 }
