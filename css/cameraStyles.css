@@ -9,23 +9,34 @@
   src: url("Quicksand-BoldItalic.otf");
 }
 
+
+@font-face {
+  font-family: 'chunkfive';
+  src: url("Chunkfive.otf");
+}
+
 .camera {
+  width: 950px;
+  height: 960px;
   position: relative;
   margin-left: auto;;
   margin-right: auto;
 }
 
 .header {
-  /*width: 850px;
-  height: 100px;*/
+  width: 950px;
   position: relative;
   margin-left: auto;;
   margin-right: auto;
 }
 
 .iAm {
+  width: 950px;
+  height: 100px;
   margin-left: auto;;
   margin-right: auto;
+  position: relative;
+  padding-left: 20px;
 }
 
 .D500Logo{
@@ -86,18 +97,20 @@
 #summary h1 {
   width: 400px;
   height: auto;;
+  font-size: 28px;
   font-family: 'chunkfive';
   text-shadow: 0 4px 4px lightgray;
   margin: 0 auto 0 auto;
+  padding-left: 15px;
 }
 
 #summary p {
+  width: 400px;
+  height: auto;
   font-family: 'Quicksand';
   text-shadow: 0 4px 4px lightgray;
   margin: 0 auto 0 auto;
   padding-left: 15px;
-  width: 400px;
-  height: auto;
 }
 
 #summary img {
